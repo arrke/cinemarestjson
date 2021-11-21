@@ -1,0 +1,675 @@
+{
+  "users": [{ "id": 1, "email": "user@user.pl", "password": "Password123" }],
+  "reservations": [
+    {
+      "id": 1,
+      "reserved": true,
+      "userId": 1,
+      "paid": true
+    }
+  ],
+  "reserved_seats": [
+    {
+      "id": 1,
+      "seatId": 10,
+      "reservationId": 1,
+      "screeningId": 1
+    },
+    {
+      "id": 1,
+      "seatId": 11,
+      "reservationId": 1,
+      "screeningId": 1
+    }
+  ],
+  "branches": [
+    {
+      "id": 1,
+      "name": "Sala większa po lewej",
+      "seatsNo": 40
+    },
+    {
+      "id": 2,
+      "name": "Sala mniejsza po prawej",
+      "seatsNo": 20
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "rank": "1",
+      "rankUpDown": "0",
+      "title": "Eternals",
+      "fullTitle": "Eternals (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTExZmVjY2ItYTAzYi00MDdlLWFlOWItNTJhMDRjMzQ5ZGY0XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Chloé Zhao (dir.), Gemma Chan, Richard Madden",
+      "imDbRating": "6.8",
+      "imDbRatingCount": "98559",
+      "runtime": "2h 37m"
+    },
+    {
+      "id": "2",
+      "rank": "2",
+      "rankUpDown": "0",
+      "title": "Dune",
+      "fullTitle": "Dune (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Denis Villeneuve (dir.), Timothée Chalamet, Rebecca Ferguson",
+      "imDbRating": "8.2",
+      "imDbRatingCount": "335441",
+      "runtime": "2h 35m"
+    },
+    {
+      "id": "3",
+      "rank": "3",
+      "rankUpDown": "+1",
+      "title": "The Harder They Fall",
+      "fullTitle": "The Harder They Fall (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjg4NGExN2EtZmMxYy00ZDEwLWJiZGEtOWRiN2RlMGE0OWE0XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Jeymes Samuel (dir.), Jonathan Majors, Zazie Beetz",
+      "imDbRating": "6.6",
+      "imDbRatingCount": "33279",
+      "runtime": "2h 19m"
+    },
+    {
+      "id": "4",
+      "rank": "4",
+      "rankUpDown": "+21",
+      "title": "Red Notice",
+      "fullTitle": "Red Notice (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Rawson Marshall Thurber (dir.), Dwayne Johnson, Ryan Reynolds",
+      "imDbRating": "6.4",
+      "imDbRatingCount": "97893",
+      "runtime": "1h 55m"
+    },
+    {
+      "id": "5",
+      "rank": "5",
+      "rankUpDown": "+2",
+      "title": "No Time to Die",
+      "fullTitle": "No Time to Die (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Cary Joji Fukunaga (dir.), Daniel Craig, Ana de Armas",
+      "imDbRating": "7.4",
+      "imDbRatingCount": "197092",
+      "runtime": "2h 43m"
+    },
+    {
+      "id": "6",
+      "rank": "6",
+      "rankUpDown": "+22",
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "fullTitle": "Shang-Chi and the Legend of the Ten Rings (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Destin Daniel Cretton (dir.), Simu Liu, Awkwafina",
+      "imDbRating": "7.6",
+      "imDbRatingCount": "193755",
+      "runtime": "2h 12m"
+    },
+    {
+      "id": "7",
+      "rank": "7",
+      "rankUpDown": "+1",
+      "title": "Finch",
+      "fullTitle": "Finch (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTMxYjk3MmItMzk1OC00NmRhLThlMjYtNmQyNzA0MzgxMWI2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Miguel Sapochnik (dir.), Tom Hanks, Caleb Landry Jones",
+      "imDbRating": "6.9",
+      "imDbRatingCount": "38213",
+      "runtime": "1h 55m"
+    },
+    {
+      "id": "8",
+      "rank": "8",
+      "rankUpDown": "+34",
+      "title": "Love Hard",
+      "fullTitle": "Love Hard (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BODIwNDIxN2YtMWU3ZS00MjU5LWIxMzctNmY1NDg5NDgwYmM0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Hernan Jimenez (dir.), Nina Dobrev, Jimmy O. Yang",
+      "imDbRating": "6.4",
+      "imDbRatingCount": "22363",
+      "runtime": "1h 45m"
+    },
+    {
+      "id": "9",
+      "rank": "9",
+      "rankUpDown": "+13",
+      "title": "Spider-Man: No Way Home",
+      "fullTitle": "Spider-Man: No Way Home (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDUzNWJhZWQtYzU3Zi00M2NjLThjZjEtMTRmMjRmNzBmMWI2XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Jon Watts (dir.), Zendaya, Benedict Cumberbatch",
+      "imDbRating": "",
+      "imDbRatingCount": "0",
+      "runtime": ""
+    },
+    {
+      "id": "10",
+      "rank": "10",
+      "rankUpDown": "-7",
+      "title": "Army of Thieves",
+      "fullTitle": "Army of Thieves (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BZGRlODFlNTItZWFhZS00NjU5LTliNDUtNjUxMGJhMGZhYjFmXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY176_CR6,0,128,176_AL_.jpg",
+      "crew": "Matthias Schweighöfer (dir.), Matthias Schweighöfer, Nathalie Emmanuel",
+      "imDbRating": "6.4",
+      "imDbRatingCount": "42842",
+      "runtime": "2h 7m"
+    },
+    {
+      "id": "11",
+      "rank": "11",
+      "rankUpDown": "-6",
+      "title": "Last Night in Soho",
+      "fullTitle": "Last Night in Soho (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjgwZDIwY2MtNGZlNy00NGRlLWFmNTgtOTBkZThjMDUwMGJhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Edgar Wright (dir.), Thomasin McKenzie, Anya Taylor-Joy",
+      "imDbRating": "7.4",
+      "imDbRatingCount": "31797",
+      "runtime": "1h 56m"
+    },
+    {
+      "id": "12",
+      "rank": "12",
+      "rankUpDown": "-3",
+      "title": "The French Dispatch",
+      "fullTitle": "The French Dispatch (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BNmQxZTNiODYtNzBhYy00MzVlLWJlN2UtNTc4YWZjMDIwMmEzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Wes Anderson (dir.), Benicio Del Toro, Adrien Brody",
+      "imDbRating": "7.5",
+      "imDbRatingCount": "25923",
+      "runtime": "1h 48m"
+    },
+    {
+      "id": "13",
+      "rank": "13",
+      "rankUpDown": "+11",
+      "title": "Ghostbusters: Afterlife",
+      "fullTitle": "Ghostbusters: Afterlife (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BMmZiMjdlN2UtYzdiZS00YjgxLTgyZGMtYzE4ZGU5NTlkNjhhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Jason Reitman (dir.), Carrie Coon, Paul Rudd",
+      "imDbRating": "7.8",
+      "imDbRatingCount": "11236",
+      "runtime": "2h 4m"
+    },
+    {
+      "id": "14",
+      "rank": "14",
+      "rankUpDown": "-8",
+      "title": "Dune",
+      "fullTitle": "Dune (1984)",
+      "year": "1984",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTAzYzNlMDMtMGRjYS00M2UxLTk0MmEtYmE4YWZiYmEwOTIwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "David Lynch (dir.), Kyle MacLachlan, Virginia Madsen",
+      "imDbRating": "6.4",
+      "imDbRatingCount": "151946",
+      "runtime": "2h 17m"
+    },
+    {
+      "id": "15",
+      "rank": "15",
+      "rankUpDown": "+3",
+      "title": "Venom: Let There Be Carnage",
+      "fullTitle": "Venom: Let There Be Carnage (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTc3ZTAwYTgtMmM4ZS00MDRiLWI2Y2EtYmRiZmE0YjkzMGY1XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Andy Serkis (dir.), Tom Hardy, Woody Harrelson",
+      "imDbRating": "6.3",
+      "imDbRatingCount": "70187",
+      "runtime": "1h 37m"
+    },
+    {
+      "id": "16",
+      "rank": "16",
+      "rankUpDown": "+5",
+      "title": "Spencer",
+      "fullTitle": "Spencer (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTdkZDc4YmQtYzA3My00NzliLThjN2YtMDIwMDkxY2Y4ODdmXkEyXkFqcGdeQXVyMTA2MDU0NjM5._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Pablo Larraín (dir.), Kristen Stewart, Timothy Spall",
+      "imDbRating": "7.3",
+      "imDbRatingCount": "8007",
+      "runtime": "1h 51m"
+    },
+    {
+      "id": "17",
+      "rank": "17",
+      "rankUpDown": "-3",
+      "title": "House of Gucci",
+      "fullTitle": "House of Gucci (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzdlMTMyZWQtZWNmMC00MTJiLWIyMWMtM2ZlZDdlYzZhNTc0XkEyXkFqcGdeQXVyMTMzNDE5NDM2._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Ridley Scott (dir.), Lady Gaga, Adam Driver",
+      "imDbRating": "",
+      "imDbRatingCount": "0",
+      "runtime": "2h 38m"
+    },
+    {
+      "id": "18",
+      "rank": "18",
+      "rankUpDown": "+13",
+      "title": "Jai Bhim",
+      "fullTitle": "Jai Bhim (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BY2Y5ZWMwZDgtZDQxYy00Mjk0LThhY2YtMmU1MTRmMjVhMjRiXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_UY176_CR6,0,128,176_AL_.jpg",
+      "crew": "T.J. Gnanavel (dir.), Suriya, Lijo Mol Jose",
+      "imDbRating": "9.6",
+      "imDbRatingCount": "127209",
+      "runtime": "2h 44m"
+    },
+    {
+      "id": "19",
+      "rank": "19",
+      "rankUpDown": "-2",
+      "title": "Free Guy",
+      "fullTitle": "Free Guy (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTY2NzFjODctOWUzMC00MGZhLTlhNjMtM2Y2ODBiNGY1ZWRiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Shawn Levy (dir.), Ryan Reynolds, Jodie Comer",
+      "imDbRating": "7.2",
+      "imDbRatingCount": "207435",
+      "runtime": "1h 55m"
+    },
+    {
+      "id": "20",
+      "rank": "20",
+      "rankUpDown": "+176",
+      "title": "Clifford the Big Red Dog",
+      "fullTitle": "Clifford the Big Red Dog (2021)",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BZGIxYTU5MzctY2MzNS00MTRhLWEwM2UtY2Q5Mzk3OTAzMzcwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX128_CR0,3,128,176_AL_.jpg",
+      "crew": "Walt Becker (dir.), Darby Camp, Jack Whitehall",
+      "imDbRating": "6.0",
+      "imDbRatingCount": "2938",
+      "runtime": "1h 37m"
+    }
+  ],
+  "screening": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "branchId": 1,
+      "screeningStart": "2021-11-21T14:00:00.000"
+    },
+    {
+      "id": 2,
+      "movieId": 2,
+      "branchId": 1,
+      "screeningStart": "2021-11-21T14:00:00.000"
+    }
+  ],
+  "seats": [
+    {
+      "id": 1,
+      "row": 1,
+      "number": 1,
+      "branchId": 1
+    },
+    {
+      "id": 2,
+      "row": 1,
+      "number": 2,
+      "branchId": 1
+    },
+    {
+      "id": 3,
+      "row": 1,
+      "number": 3,
+      "branchId": 1
+    },
+    {
+      "id": 4,
+      "row": 1,
+      "number": 4,
+      "branchId": 1
+    },
+    {
+      "id": 5,
+      "row": 1,
+      "number": 5,
+      "branchId": 1
+    },
+    {
+      "id": 6,
+      "row": 1,
+      "number": 6,
+      "branchId": 1
+    },
+    {
+      "id": 7,
+      "row": 1,
+      "number": 7,
+      "branchId": 1
+    },
+    {
+      "id": 8,
+      "row": 1,
+      "number": 8,
+      "branchId": 1
+    },
+    {
+      "id": 9,
+      "row": 1,
+      "number": 9,
+      "branchId": 1
+    },
+    {
+      "id": 10,
+      "row": 1,
+      "number": 10,
+      "branchId": 1
+    },
+    {
+      "id": 11,
+      "row": 2,
+      "number": 1,
+      "branchId": 1
+    },
+    {
+      "id": 12,
+      "row": 2,
+      "number": 2,
+      "branchId": 1
+    },
+    {
+      "id": 13,
+      "row": 2,
+      "number": 3,
+      "branchId": 1
+    },
+    {
+      "id": 14,
+      "row": 2,
+      "number": 4,
+      "branchId": 1
+    },
+    {
+      "id": 15,
+      "row": 2,
+      "number": 5,
+      "branchId": 1
+    },
+    {
+      "id": 16,
+      "row": 2,
+      "number": 6,
+      "branchId": 1
+    },
+    {
+      "id": 17,
+      "row": 2,
+      "number": 7,
+      "branchId": 1
+    },
+    {
+      "id": 18,
+      "row": 2,
+      "number": 8,
+      "branchId": 1
+    },
+    {
+      "id": 19,
+      "row": 2,
+      "number": 9,
+      "branchId": 1
+    },
+    {
+      "id": 20,
+      "row": 2,
+      "number": 10,
+      "branchId": 1
+    },
+    {
+      "id": 21,
+      "row": 3,
+      "number": 1,
+      "branchId": 1
+    },
+    {
+      "id": 22,
+      "row": 3,
+      "number": 2,
+      "branchId": 1
+    },
+    {
+      "id": 23,
+      "row": 3,
+      "number": 3,
+      "branchId": 1
+    },
+    {
+      "id": 24,
+      "row": 3,
+      "number": 4,
+      "branchId": 1
+    },
+    {
+      "id": 25,
+      "row": 3,
+      "number": 5,
+      "branchId": 1
+    },
+    {
+      "id": 26,
+      "row": 3,
+      "number": 6,
+      "branchId": 1
+    },
+    {
+      "id": 27,
+      "row": 3,
+      "number": 7,
+      "branchId": 1
+    },
+    {
+      "id": 28,
+      "row": 3,
+      "number": 8,
+      "branchId": 1
+    },
+    {
+      "id": 29,
+      "row": 3,
+      "number": 9,
+      "branchId": 1
+    },
+    {
+      "id": 30,
+      "row": 3,
+      "number": 10,
+      "branchId": 1
+    },
+    {
+      "id": 31,
+      "row": 4,
+      "number": 1,
+      "branchId": 1
+    },
+    {
+      "id": 32,
+      "row": 4,
+      "number": 2,
+      "branchId": 1
+    },
+    {
+      "id": 33,
+      "row": 4,
+      "number": 3,
+      "branchId": 1
+    },
+    {
+      "id": 34,
+      "row": 4,
+      "number": 4,
+      "branchId": 1
+    },
+    {
+      "id": 35,
+      "row": 4,
+      "number": 5,
+      "branchId": 1
+    },
+    {
+      "id": 36,
+      "row": 4,
+      "number": 6,
+      "branchId": 1
+    },
+    {
+      "id": 37,
+      "row": 4,
+      "number": 7,
+      "branchId": 1
+    },
+    {
+      "id": 38,
+      "row": 4,
+      "number": 8,
+      "branchId": 1
+    },
+    {
+      "id": 39,
+      "row": 4,
+      "number": 9,
+      "branchId": 1
+    },
+    {
+      "id": 40,
+      "row": 1,
+      "number": 10,
+      "branchId": 1
+    },
+    {
+      "id": 41,
+      "row": 1,
+      "number": 1,
+      "branchId": 2
+    },
+    {
+      "id": 42,
+      "row": 1,
+      "number": 2,
+      "branchId": 2
+    },
+    {
+      "id": 43,
+      "row": 1,
+      "number": 3,
+      "branchId": 2
+    },
+    {
+      "id": 44,
+      "row": 1,
+      "number": 4,
+      "branchId": 2
+    },
+    {
+      "id": 45,
+      "row": 1,
+      "number": 5,
+      "branchId": 2
+    },
+    {
+      "id": 46,
+      "row": 2,
+      "number": 1,
+      "branchId": 2
+    },
+    {
+      "id": 47,
+      "row": 2,
+      "number": 2,
+      "branchId": 2
+    },
+    {
+      "id": 48,
+      "row": 2,
+      "number": 3,
+      "branchId": 2
+    },
+    {
+      "id": 49,
+      "row": 2,
+      "number": 4,
+      "branchId": 2
+    },
+    {
+      "id": 50,
+      "row": 2,
+      "number": 5,
+      "branchId": 2
+    },
+    {
+      "id": 51,
+      "row": 3,
+      "number": 1,
+      "branchId": 2
+    },
+    {
+      "id": 52,
+      "row": 3,
+      "number": 2,
+      "branchId": 2
+    },
+    {
+      "id": 53,
+      "row": 3,
+      "number": 3,
+      "branchId": 2
+    },
+    {
+      "id": 54,
+      "row": 3,
+      "number": 4,
+      "branchId": 2
+    },
+    {
+      "id": 55,
+      "row": 3,
+      "number": 5,
+      "branchId": 2
+    },
+    {
+      "id": 56,
+      "row": 4,
+      "number": 1,
+      "branchId": 2
+    },
+    {
+      "id": 57,
+      "row": 4,
+      "number": 2,
+      "branchId": 2
+    },
+    {
+      "id": 58,
+      "row": 4,
+      "number": 3,
+      "branchId": 2
+    },
+    {
+      "id": 59,
+      "row": 4,
+      "number": 4,
+      "branchId": 2
+    },
+    {
+      "id": 60,
+      "row": 4,
+      "number": 5,
+      "branchId": 2
+    }
+  ]
+}
