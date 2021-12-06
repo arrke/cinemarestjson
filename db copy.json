@@ -37,9 +37,7 @@
   "movies": [
     {
       "id": "1",
-      "rank": "1",
-      "rankUpDown": "0",
-      "title": "Eternals",
+            "title": "Eternals",
       "fullTitle": "Eternals (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BMTExZmVjY2ItYTAzYi00MDdlLWFlOWItNTJhMDRjMzQ5ZGY0XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_UX128_CR0,3,128,176_AL_.jpg",
@@ -50,9 +48,7 @@
     },
     {
       "id": "2",
-      "rank": "2",
-      "rankUpDown": "0",
-      "title": "Dune",
+            "title": "Dune",
       "fullTitle": "Dune (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
@@ -63,9 +59,7 @@
     },
     {
       "id": "3",
-      "rank": "3",
-      "rankUpDown": "+1",
-      "title": "The Harder They Fall",
+            "title": "The Harder They Fall",
       "fullTitle": "The Harder They Fall (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BYjg4NGExN2EtZmMxYy00ZDEwLWJiZGEtOWRiN2RlMGE0OWE0XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_UX128_CR0,3,128,176_AL_.jpg",
@@ -76,9 +70,7 @@
     },
     {
       "id": "4",
-      "rank": "4",
-      "rankUpDown": "+21",
-      "title": "Red Notice",
+             "title": "Red Notice",
       "fullTitle": "Red Notice (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
@@ -89,9 +81,7 @@
     },
     {
       "id": "5",
-      "rank": "5",
-      "rankUpDown": "+2",
-      "title": "No Time to Die",
+            "title": "No Time to Die",
       "fullTitle": "No Time to Die (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX128_CR0,3,128,176_AL_.jpg",
@@ -102,9 +92,7 @@
     },
     {
       "id": "6",
-      "rank": "6",
-      "rankUpDown": "+22",
-      "title": "Shang-Chi and the Legend of the Ten Rings",
+             "title": "Shang-Chi and the Legend of the Ten Rings",
       "fullTitle": "Shang-Chi and the Legend of the Ten Rings (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
@@ -115,9 +103,7 @@
     },
     {
       "id": "7",
-      "rank": "7",
-      "rankUpDown": "+1",
-      "title": "Finch",
+            "title": "Finch",
       "fullTitle": "Finch (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BZTMxYjk3MmItMzk1OC00NmRhLThlMjYtNmQyNzA0MzgxMWI2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
@@ -128,9 +114,7 @@
     },
     {
       "id": "8",
-      "rank": "8",
-      "rankUpDown": "+34",
-      "title": "Love Hard",
+             "title": "Love Hard",
       "fullTitle": "Love Hard (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BODIwNDIxN2YtMWU3ZS00MjU5LWIxMzctNmY1NDg5NDgwYmM0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
@@ -141,9 +125,7 @@
     },
     {
       "id": "9",
-      "rank": "9",
-      "rankUpDown": "+13",
-      "title": "Spider-Man: No Way Home",
+             "title": "Spider-Man: No Way Home",
       "fullTitle": "Spider-Man: No Way Home (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BMDUzNWJhZWQtYzU3Zi00M2NjLThjZjEtMTRmMjRmNzBmMWI2XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_UX128_CR0,3,128,176_AL_.jpg",
@@ -154,8 +136,6 @@
     },
     {
       "id": "10",
-      "rank": "10",
-      "rankUpDown": "-7",
       "title": "Army of Thieves",
       "fullTitle": "Army of Thieves (2021)",
       "year": "2021",
@@ -167,8 +147,6 @@
     },
     {
       "id": "11",
-      "rank": "11",
-      "rankUpDown": "-6",
       "title": "Last Night in Soho",
       "fullTitle": "Last Night in Soho (2021)",
       "year": "2021",
@@ -180,8 +158,6 @@
     },
     {
       "id": "12",
-      "rank": "12",
-      "rankUpDown": "-3",
       "title": "The French Dispatch",
       "fullTitle": "The French Dispatch (2021)",
       "year": "2021",
@@ -193,9 +169,7 @@
     },
     {
       "id": "13",
-      "rank": "13",
-      "rankUpDown": "+11",
-      "title": "Ghostbusters: Afterlife",
+       "title": "Ghostbusters: Afterlife",
       "fullTitle": "Ghostbusters: Afterlife (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BMmZiMjdlN2UtYzdiZS00YjgxLTgyZGMtYzE4ZGU5NTlkNjhhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX128_CR0,3,128,176_AL_.jpg",
@@ -206,8 +180,6 @@
     },
     {
       "id": "14",
-      "rank": "14",
-      "rankUpDown": "-8",
       "title": "Dune",
       "fullTitle": "Dune (1984)",
       "year": "1984",
@@ -219,8 +191,6 @@
     },
     {
       "id": "15",
-      "rank": "15",
-      "rankUpDown": "+3",
       "title": "Venom: Let There Be Carnage",
       "fullTitle": "Venom: Let There Be Carnage (2021)",
       "year": "2021",
@@ -232,8 +202,6 @@
     },
     {
       "id": "16",
-      "rank": "16",
-      "rankUpDown": "+5",
       "title": "Spencer",
       "fullTitle": "Spencer (2021)",
       "year": "2021",
@@ -245,8 +213,6 @@
     },
     {
       "id": "17",
-      "rank": "17",
-      "rankUpDown": "-3",
       "title": "House of Gucci",
       "fullTitle": "House of Gucci (2021)",
       "year": "2021",
@@ -258,9 +224,7 @@
     },
     {
       "id": "18",
-      "rank": "18",
-      "rankUpDown": "+13",
-      "title": "Jai Bhim",
+       "title": "Jai Bhim",
       "fullTitle": "Jai Bhim (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BY2Y5ZWMwZDgtZDQxYy00Mjk0LThhY2YtMmU1MTRmMjVhMjRiXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_UY176_CR6,0,128,176_AL_.jpg",
@@ -271,8 +235,6 @@
     },
     {
       "id": "19",
-      "rank": "19",
-      "rankUpDown": "-2",
       "title": "Free Guy",
       "fullTitle": "Free Guy (2021)",
       "year": "2021",
@@ -284,9 +246,7 @@
     },
     {
       "id": "20",
-      "rank": "20",
-      "rankUpDown": "+176",
-      "title": "Clifford the Big Red Dog",
+        "title": "Clifford the Big Red Dog",
       "fullTitle": "Clifford the Big Red Dog (2021)",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BZGIxYTU5MzctY2MzNS00MTRhLWEwM2UtY2Q5Mzk3OTAzMzcwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX128_CR0,3,128,176_AL_.jpg",
